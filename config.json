@@ -9,14 +9,14 @@
   "accessories": [
     {
       "accessory": "pilight",
-      "name": “Eettafel",
+      "name": "Eettafel",
       "device": "eettafel",
       "sharedWS": false,
       "type": "Dimmer"
     },
     {
       "accessory": "pilight",
-      "name": “Bank”,
+      "name": "Bank",
       "device": "bank",
       "sharedWS": false,
       "type": "Dimmer"
