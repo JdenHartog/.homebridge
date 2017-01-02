@@ -13,5 +13,6 @@ sudo npm install -g https://github.com/Qonstrukt/homebridge-pilight.git<br>
 
 cd ~/.homebridge<br>
 sudo rm config.json<br>
+sudo rm -r homebridge<br>
 sudo git clone https://github.com/JdenHartog/homebridge.git<br>
 sudo mv homebridge/config.json config.json
