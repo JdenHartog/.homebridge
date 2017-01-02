@@ -30,8 +30,8 @@
     },
     {
       "accessory": "pilight",
-      "name": "Keuken",
-      "device": "keuken",
+      "name": "Keukenkast",
+      "device": "keukenkast",
       "sharedWS": false,
       "type": "Switch"
     }
