@@ -1,0 +1,27 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "456-12-890"
+  },
+  "description": "This is an example configuration file with pilight plugin.",
+  "accessories": [
+    {
+      "accessory": "pilight",
+      "name": “Eettafel",
+      "device": "eettafel",
+      "sharedWS": false,
+      "type": "Dimmer"
+    },
+    {
+      "accessory": "pilight",
+      "name": “Bank”,
+      "device": "bank",
+      "sharedWS": false,
+      "type": "Dimmer"
+    }
+  ],
+  "platforms": [
+  ]
+}
