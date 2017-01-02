@@ -1,5 +1,5 @@
 # homebridge
-Some stuff to get homebridge working with [pilight](https://www.pilight.org) on [2016-09-23-raspbian-jessie-lite](https://www.raspberrypi.org/downloads/raspbian/)
+Some stuff to get [homebridge](https://github.com/nfarina/homebridge) working with [pilight](https://www.pilight.org) on [2016-09-23-raspbian-jessie-lite](https://www.raspberrypi.org/downloads/raspbian/)
 
 sudo apt-get install git-core libavahi-compat-libdnssd-dev make
 
