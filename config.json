@@ -9,6 +9,13 @@
   "accessories": [
     {
       "accessory": "pilight",
+      "name": "Stereo",
+      "device": "stereo",
+      "sharedWS": false,
+      "type": "Switch"
+    },
+    {
+      "accessory": "pilight",
       "name": "Eettafel",
       "device": "eettafel",
       "sharedWS": false,
@@ -20,6 +27,13 @@
       "device": "bank",
       "sharedWS": false,
       "type": "Dimmer"
+    },
+    {
+      "accessory": "pilight",
+      "name": "Keuken",
+      "device": "keuken",
+      "sharedWS": false,
+      "type": "Switch"
     }
   ],
   "platforms": [
