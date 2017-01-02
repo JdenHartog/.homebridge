@@ -1,15 +1,16 @@
 # homebridge
 Some stuff to get homebridge working with [pilight](https://www.pilight.org) on [2016-09-23-raspbian-jessie-lite](https://www.raspberrypi.org/downloads/raspbian/)
 
-sudo apt-get install git-core libavahi-compat-libdnssd-dev make  **!!!!!!!!**
+sudo apt-get install git-core libavahi-compat-libdnssd-dev make
 
-wget https://nodejs.org/dist/v7.3.0/node-v7.3.0-linux-armv6l.tar.gz 
-tar -xvf node-v7.3.0-linux-armv6l.tar.gz
-cd node-v7.3.0-linux-armv6l
-sudo cp -R * /usr/local/
+wget https://nodejs.org/dist/v7.3.0/node-v7.3.0-linux-armv6l.tar.gz<br>
+tar -xvf node-v7.3.0-linux-armv6l.tar.gz<br>
+cd node-v7.3.0-linux-armv6l<br>
+sudo cp -R * /usr/local/<br>
 
-sudo npm install -g homebridge
-sudo npm install -g https://github.com/Qonstrukt/homebridge-pilight.git
-sudo npm install -g homebridge-http ???????
+sudo npm install -g homebridge<br>
+sudo npm install -g https://github.com/Qonstrukt/homebridge-pilight.git<br>
 
-cd /.homebridge/
+cd /.homebridge<br>
+sudo rm config.json<br>
+sudo git clone https://github.com/JdenHartog/homebridge.git<br>
