@@ -11,6 +11,8 @@ sudo cp -R * /usr/local/<br>
 sudo npm install -g homebridge<br>
 sudo npm install -g https://github.com/Qonstrukt/homebridge-pilight.git<br>
 
+homebridge
+
 cd ~/.homebridge<br>
 sudo rm config.json<br>
 sudo rm -r homebridge<br>
